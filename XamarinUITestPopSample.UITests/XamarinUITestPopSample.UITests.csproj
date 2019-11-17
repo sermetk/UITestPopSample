@@ -49,7 +49,6 @@
     <Compile Include="Base\ActExtension.cs" />
     <Compile Include="Base\AppInitializer.cs" />
     <Compile Include="Base\DeviceExtension.cs" />
-    <Compile Include="Base\InvokeMethodExtensions.cs" />
     <Compile Include="Base\NavigationExtensions.cs" />
     <Compile Include="Base\TestBase.cs" />
     <Compile Include="Utility\AndroidDevices.cs" />
