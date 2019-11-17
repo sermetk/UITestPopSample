@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TabbedPage xmlns="http://xamarin.com/schemas/2014/forms"
+            xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            xmlns:local="clr-namespace:XamarinUITestPopSample"
+            x:Class="XamarinUITestPopSample.MainTabbedPage">
+    <!--Pages can be added as references or inline-->
+     <NavigationPage Title="Tab 1" IconImageSource="add.png">
+        <x:Arguments>
+            <local:MainPage />
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Tab 2" IconImageSource="add.png">
+        <x:Arguments>
+            <local:SecondPage />
+        </x:Arguments>
+    </NavigationPage>
+    <NavigationPage Title="Tab 3" IconImageSource="add.png">
+        <x:Arguments>
+           <local:ThirdPage />
+        </x:Arguments>
+    </NavigationPage>
+</TabbedPage>
