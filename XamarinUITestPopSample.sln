@@ -1,13 +1,17 @@
 
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinUITestPopSample.Android", "XamarinUITestPopSample.Android\XamarinUITestPopSample.Android.csproj", "{D4DAA8C8-13CE-4D84-87A5-5685CA5D267E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinUITestPopSample.Android", "src/XamarinUITestPopSample.Android\XamarinUITestPopSample.Android.csproj", "{D4DAA8C8-13CE-4D84-87A5-5685CA5D267E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinUITestPopSample.iOS", "XamarinUITestPopSample.iOS\XamarinUITestPopSample.iOS.csproj", "{4358226A-FBA7-4B39-8C5A-ACA87BC13809}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinUITestPopSample.iOS", "src/XamarinUITestPopSample.iOS\XamarinUITestPopSample.iOS.csproj", "{4358226A-FBA7-4B39-8C5A-ACA87BC13809}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinUITestPopSample.UITests", "XamarinUITestPopSample.UITests\XamarinUITestPopSample.UITests.csproj", "{FD0829EC-32F8-45DE-907C-303EBF3DDD7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinUITestPopSample.UITests", "test/XamarinUITestPopSample.UITests\XamarinUITestPopSample.UITests.csproj", "{FD0829EC-32F8-45DE-907C-303EBF3DDD7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinUITestPopSample", "XamarinUITestPopSample\XamarinUITestPopSample.csproj", "{059FE2F9-311C-4C35-AF66-64634F51E86F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XamarinUITestPopSample", "src/XamarinUITestPopSample\XamarinUITestPopSample.csproj", "{059FE2F9-311C-4C35-AF66-64634F51E86F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{B34CBF08-9759-44FA-A094-503AEAD18A9E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{2CB7CFBB-2ACC-4E22-B86D-13699C24F145}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -67,5 +71,11 @@ Global
 		{059FE2F9-311C-4C35-AF66-64634F51E86F}.Debug|iPhone.Build.0 = Debug|Any CPU
 		{059FE2F9-311C-4C35-AF66-64634F51E86F}.Release|iPhone.ActiveCfg = Release|Any CPU
 		{059FE2F9-311C-4C35-AF66-64634F51E86F}.Release|iPhone.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{FD0829EC-32F8-45DE-907C-303EBF3DDD7C} = {2CB7CFBB-2ACC-4E22-B86D-13699C24F145}
+		{059FE2F9-311C-4C35-AF66-64634F51E86F} = {B34CBF08-9759-44FA-A094-503AEAD18A9E}
+		{D4DAA8C8-13CE-4D84-87A5-5685CA5D267E} = {B34CBF08-9759-44FA-A094-503AEAD18A9E}
+		{4358226A-FBA7-4B39-8C5A-ACA87BC13809} = {B34CBF08-9759-44FA-A094-503AEAD18A9E}
 	EndGlobalSection
 EndGlobal
